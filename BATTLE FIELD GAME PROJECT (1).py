@@ -109,7 +109,7 @@ for i in range(10) :
 else :
     print()
     print("😭😭😭 YOU LOST 😭😭😭")
-print("You got",count1/10*100,"% 👍")
+print("You got",count1/10*100,"% 👍👍")
 
 
 # In[ ]:
