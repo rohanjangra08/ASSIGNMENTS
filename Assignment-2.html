@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #header {background-color: rgb(105, 188, 229); text-align: left;font-size: x-large;}
+    </style>
+    <link rel="icon" type="image/x-icon" href="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=684&h=456">
+</head>
+<body>
+    <hr>
+    <div id="header">
+        <header><i>Home &nbsp;&nbsp;&nbsp;&nbsp; bollywood &nbsp;&nbsp;&nbsp;&nbsp; Hollywood &nbsp;&nbsp;&nbsp;&nbsp; South Indian &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.instagram.com/">Follow(insta)</a></i></header>
+    </div>
+    <hr>
+    <fieldset>
+    <div id="image">
+    <img src="https://www.themoviedb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Intsteller poster" height="172">
+    </div>
+    <div id="name">
+    <b>Interstellar</b>
+    </div>
+    <div id="content">
+        Interstellar is a 2014 epic science fiction film co-written, directed, and produced by Christopher Nolan.  Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind. The film had a worldwide gross over $677 million (and $773 million with subsequent re-releases), making it the tenth-highest grossing film of 2014.
+    </div>
+</fieldset>
+<br><br><br>
+<fieldset>
+    <div id="image">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg" alt="Inception poster" height="172">
+        </div>
+        <div id="name">
+        <b>Inception</b>
+        </div>
+        <div id="content">
+            Inception is a 2010 science fiction action film written and directed by Christopher Nolan. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious.Inception grossed over $828 million worldwide, becoming the fourth-highest-grossing film of 2010. Considered one of the best films of the 2010s.
+        </div>
+</fieldset>
+<br><br><br>
+<fieldset>
+    <div id="image">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Joker_%282019_film%29_poster.jpg" alt="Joker poster" height="172">
+        </div>
+        <div id="name">
+        <b>Joker</b>
+        </div>
+        <div id="content">
+            Joker is a 2019 American neo-noir psychological thriller film directed by Todd Phillips. Set in 1981, it follows Arthur Fleck, a failed clown and aspiring stand-up comic whose descent into mental illness and nihilism inspires a violent countercultural revolution against the prosperous in a decaying Gotham City.The film was a box office success and set records for an October release. It grossed over $1 billion, the first R-rated film to do so and became the sixth-highest-grossing film of 2019 during its theatrical run. 
+        </div>
+</fieldset>
+<br><br><br>
+<fieldset>
+    <div id="image">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg" alt="Dune poster" height="172">
+        </div>
+        <div id="name">
+        <b>Dune</b>
+        </div>
+        <div id="content">
+            Dune (titled onscreen as Dune: Part One) is a 2021 American epic science fiction film directed by Denis Villeneuve. Set in the distant future, the film follows Paul Atreides as his family, the noble House Atreides, is thrust into a war for the deadly and inhospitable desert planet Arrakis.The film was a box office success and it was the 12th highest grossing film of the year despite being released on HBO Max on same day.The American Film Institute named Dune as one of the top 10 films of 2021.
+        </div>
+</fieldset>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
